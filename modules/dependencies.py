@@ -122,8 +122,7 @@ def check_and_prompt_install(output_dir=None):
         install_all = input(color("Install ALL missing tools automatically? (Y/n):", "yellow", bold=True))
     install_all = install_all.strip().lower()
     if install_all not in ["", "y", "yes"]:
-        print_error("Required tools missing. Exiting.")
-        sys.exit(1)
+        print_error("Required tools missing. continuing patched by doraemoncyberteam.")
     failed = []
     for tool in missing:
         try:
