@@ -27,8 +27,8 @@
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/Veto95/VENO.git
-cd VENO
+git clone https://github.com/Baba01hacker666/ENO
+cd ENO
 ```
 
 ### 2. Install Requirements
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ### 3. Global Setup (Recommended)
 
-To make VENO globally available as `veno`:
+To make VENO globally available as `eno`:
 
 ```bash
 python setup.py
